@@ -7,34 +7,50 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
+    return str
   }
   
   function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
+    var suma=  x + y
+    return suma
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    retur x-y
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
+    var multiplica= x* y
+    return multiplica
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    var división(x/y)
+    return división
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
-  }
+    if  (x === y) {
+      return "true"
+    }
+      else{
+        "false"
+      }
+
+    }
+  
   
   function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
@@ -46,6 +62,13 @@ function devolverString(str) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (num<90){
+      return "true"
+
+    }else{
+      "false"
+
+    }
   }
   
   function mayorQueCincuenta(num) {
@@ -57,12 +80,20 @@ function devolverString(str) {
   function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
+    
   }
   
   function esPar(num) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
+    if { module(num) = 0
+      return "true"
+      else{
+        "false"
+      }
+
+    }
   }
   
   function esImpar(num) {
