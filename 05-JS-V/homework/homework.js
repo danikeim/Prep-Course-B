@@ -8,12 +8,33 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
+  // function agregarPropiedad (objeto, property) {
+    // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
+    // Devuelve el objeto
+    // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
+    // Tu código:
+  //   objeto.property = null
+  //   return objeto
+  // }
+  class Usuario {
+    constructor(usuario, nombre, mail, password)
+    this.nombre = nombre;
+    this.mail = mail;
+    this.password = password;
+  }
+  usuario.proptotype.saludar = function() {
+console.log("Hola, mi nombre es " + this.nombre)
+  }
+  
 }
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
+  Constructor.proptotype.saludar = function() {
+    console.log("Hello World!")
+  }
 }
 
 function agregarStringInvertida() {

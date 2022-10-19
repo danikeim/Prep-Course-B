@@ -93,7 +93,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (module%num = 0){
+    if (module (num) % 0){
       return "true"
      } else{
         "false"
