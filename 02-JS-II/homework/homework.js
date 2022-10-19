@@ -21,7 +21,7 @@ function devolverString(str) {
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
-    retur x-y
+    return x-y
   }
   
   function multiplica(x, y) {
@@ -34,7 +34,7 @@ function devolverString(str) {
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    var división(x/y)
+    var división= x/y
     return división
   }
   
@@ -56,6 +56,12 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (length(str1)===length(str2)){
+      return true
+
+    }else{return false
+
+    }
   }
   
   function menosQueNoventa(num) {
@@ -87,14 +93,14 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if { module(num) = 0
+    if (module%num = 0){
       return "true"
-      else{
+     } else{
         "false"
       }
 
     }
-  }
+  
   
   function esImpar(num) {
     // Devuelve "true" si "num" es impar
